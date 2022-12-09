@@ -23,3 +23,11 @@ function highAndLow(numbers){
   return `${Math.max(...arr)} ${Math.min(...arr)}`
 }
 ```
+## Projects
+* Graduation project. Wrote the front-end part of the platform for online consultations. Used React, MobX, Reacr-router-dom, Sass, MST. https://github.com/4egoRoge/Frontend_diplom
+* Educational one-page website. Used HTML, CSS. https://github.com/4egoRoge/Project-1/
+* Educational one-page website. Used HTML, SASS, JS.  https://github.com/4egoRoge/Project-2
+## Education
+Graduated from Ural Federal University with a degree in software engineering. Took many online courses on various platforms: coursera, stepic, html academy and others. Also did an internship at the company PLayrix in the areas of QA.
+## English language
+A2/B1
