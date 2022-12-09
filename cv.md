@@ -1,14 +1,14 @@
 # Chebykin Egor
-![My Photo](https://sun9-78.userapi.com/impf/aXAvn_6S3dFwS8MoCP8womeqCkjOlg1w0w2ZxQ/epwRN_LWvr4.jpg?size=1272x1280&quality=96&sign=c9032e4ed12bc0f834fd6b540659814a&type=album)
-## Contacts:
-* Telegram
-    * @egoRoge
-* Discord
-    * Egor Chebykin(@4egoRoge)
+![My Photo](https://i.postimg.cc/XYSmSfC3/epw-RN-LWvr4.jpg)
+## Junior Frontend Developer
+## Contacts
+* Telegram: @egoRoge
+* Discord: Egor Chebykin(@4egoRoge)
+* E-mail: egoroge4@gmail.com
 ## About myself
 *I am 22 years old, graduated from the institute and want to start a career in the IT industry. And move from your city to Moscow or another country. I study web programming on my own, as I like this direction the most. Work experience is just not relevant. The last time he worked as a manager of service centers in several cities that repair electric vehicles. I can quickly process information and learn.*
 ## Skills
-HTML, CSS, Sass, JavaScript, didn't study much react with react-router, mobx, also studied manual testing and postman, didn't learn much C#, Git.
+HTML, CSS, Sass, JavaScript, didn't study much react with react-router, mobx, also studied manual testing and postman, didn't learn much C#, Git, VS Code.
 ## Code examples
 ```javascript
 function positiveSum(arr) {
