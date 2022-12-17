@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #292935;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.nav-link,
+.project-link {
+    color: #FFC905;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.project-link:hover {
+    color: #FFC905;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.section {
+    width: 45%;
+    margin-right: 50px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts-list img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.section-title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 21px;
+    position: relative;
+}
+
+.hr-title {
+    width: 65px;
+    position: absolute;
+    top: 30px;
+    margin: 0;
+    border: none;
+    border-top: 2px solid #FFC905;
+}
+
+.footer,
+.header {
+    background-color: #22222E;
+}
+
+.footer-comtainer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-comtainer img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.footer-date {
+    color: #FFC905;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}

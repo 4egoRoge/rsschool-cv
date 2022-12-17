@@ -5,10 +5,12 @@
 * Telegram: @egoRoge
 * Discord: Egor Chebykin(@4egoRoge)
 * E-mail: egoroge4@gmail.com
-## About myself
+## Summary
 *I am 22 years old, graduated from the institute and want to start a career in the IT industry. And move from your city to Moscow or another country. I study web programming on my own, as I like this direction the most. Work experience is just not relevant. The last time he worked as a manager of service centers in several cities that repair electric vehicles. I can quickly process information and learn.*
 ## Skills
 HTML, CSS, Sass, JavaScript, didn't study much react with react-router, mobx, also studied manual testing and postman, didn't learn much C#, Git, VS Code.
+## Courses 
+Pass various courses on web development at the html academy and coursera
 ## Code examples
 ```javascript
 function positiveSum(arr) {
