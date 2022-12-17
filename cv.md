@@ -9,6 +9,8 @@
 *I am 22 years old, graduated from the institute and want to start a career in the IT industry. And move from your city to Moscow or another country. I study web programming on my own, as I like this direction the most. Work experience is just not relevant. The last time he worked as a manager of service centers in several cities that repair electric vehicles. I can quickly process information and learn.*
 ## Skills
 HTML, CSS, Sass, JavaScript, didn't study much react with react-router, mobx, also studied manual testing and postman, didn't learn much C#, Git, VS Code.
+## Courses 
+Pass various courses on web development at the html academy and coursera
 ## Code examples
 ```javascript
 function positiveSum(arr) {
@@ -23,8 +25,6 @@ function highAndLow(numbers){
   return `${Math.max(...arr)} ${Math.min(...arr)}`
 }
 ```
-## Courses 
-Pass various courses on web development at the html academy and coursera
 ## Projects
 * Graduation project. Wrote the front-end part of the platform for online consultations. Used React, MobX, Reacr-router-dom, Sass, MST. https://github.com/4egoRoge/Frontend_diplom
 * Educational one-page website. Used HTML, CSS. https://github.com/4egoRoge/Project-1/

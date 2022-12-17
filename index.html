@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,140 @@
     <link rel="stylesheet" href="style.css">
     <title>cv</title>
 </head>
+
 <body>
-   <header class="header">
-    <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              
-            </ul>
-          </nav>
-    </div>
-   </header> 
-   <main class="main">
-    <div class="container">
-        1
-    </div>
-   </main>
-   <footer class="footer">
-    <div class="container">
-        1
-    </div>
-   </footer>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <div class="container">
+                    <h1 class="section-title">
+                        Chebykin Egor
+                        <hr class="hr-title">
+                    </h1>
+                    <img class="photo" src="assets/img/avatar.jpg" alt="myPhoto">
+                    <p>Junior Frontend Developer</p>
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <div class="container">
+                    <h2 class="section-title">
+                        Summary
+                        <hr class="hr-title">
+                    </h2>
+                    <p>I am 22 years old, graduated from the institute and want to start a career in the IT industry.
+                        And move from your city to Moscow or another country. I study web programming on my own, as I
+                        like this direction the most. Work experience is just not relevant. The last time he worked as a
+                        manager of service centers in several cities that repair electric vehicles. I can quickly
+                        process information and learn.</p>
+                </div>
+            </section>  
+            <section class="section" id="contacts">
+                <div class="container">
+                    <h2 class="section-title">
+                        Contacts
+                        <hr class="hr-title">    
+                    </h2>
+                    <ul class="contacts-list">
+                        <li><img src="assets/icons/icons8-телеграмма-app.svg">@egoRoge</li>
+                        <li><img src="assets/icons/icons8-discord.svg">Egor Chebykin(@4egoRoge)</li>
+                        <li><img src="assets/icons/icons8-почта.svg">egoroge4@gmail.com</li>
+                    </ul>
+                </div>
+            </section>       
+            <section class="section" id="code">
+                <div class="container">
+                    <h2 class="section-title">
+                        Code examples
+                        <hr class="hr-title">
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod amet aliquid distinctio nemo enim
+                        expedita cupiditate provident, qui illum, fugiat dolor doloribus obcaecati deserunt iste optio
+                        molestias. Nihil, sit. Deleniti.</p>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <div class="container">
+                    <h2 class="section-title"
+                        >Education
+                        <hr class="hr-title">
+                    </h2>
+                    <p>Graduated from Ural Federal University with a degree in software engineering. Took many online
+                        courses on various platforms: coursera, stepic, html academy and others. Also did an internship
+                        at the company Playrix in the areas of QA.</p>
+                </div>
+            </section>  
+            <section class="section" id="courses">
+                <div class="container">
+                    <h2 class="section-title">
+                        Courses
+                        <hr class="hr-title">
+                    </h2>
+                    <p>Pass various courses on web development at the html academy and coursera.</p>
+                </div>
+            </section>  
+            <section class="section" id="skills">
+                <div class="container">
+                    <h2 class="section-title">
+                        Skills
+                        <hr class="hr-title">
+                    </h2>
+                    <p>HTML, CSS, Sass, JavaScript, didn't study much react with react-router, mobx, also studied manual
+                        testing and postman, didn't learn much C#, Git, VS Code.</p>
+                    <div class="skills-icons">
+                        <img src="assets/icons/icons8-html-5.svg" alt="logoHTML5">
+                        <img src="assets/icons/icons8-css3.svg" alt="logoCSS3">
+                        <img src="assets/icons/icons8-sass.svg" alt="logoSASS">
+                        <img src="assets/icons/icons8-javascript.svg" alt="logoJS">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="container">
+                    <h2 class="section-title">
+                        Project
+                        <hr class="hr-title">
+                    </h2>
+                    <ul class="projects-list">
+                        <li><h3>Graduation project.</h3><p>Wrote the front-end part of the platform for online consultations. Used
+                            React, MobX, Reacr-router-dom, Sass, MST.</p><a class="project-link" href="https://github.com/4egoRoge/Frontend_diplom">https://github.com/4egoRoge/Frontend_diplom</a></li>
+                        <li><h3>Educational one-page website.</h3><p>Used HTML, CSS.</p><a class="project-link" href="https://github.com/4egoRoge/Project-1/">https://github.com/4egoRoge/Project-1/</a></li>
+                        <li><h3>Educational one-page website.</h3><p>Used HTML, SASS, JS.</p><a class="project-link" href="https://github.com/4egoRoge/Project-1/">https://github.com/4egoRoge/Project-2</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="english">
+                <div class="container">
+                    <h2 class="section-title">
+                        English language
+                        <hr class="hr-title">
+                    </h2>
+                    <p>A2 / B1</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-comtainer">
+            <a href="ttps://github.com/4egoRoge"><img src="assets/icons/icons8-github.svg" alt="logoGithub"></a>
+            <p class="footer-date">2022</p>
+            <a href="https://rs.school/js/"><img src="assets/icons/rs_school_js.svg" alt="logoRs"></a>
+        </div>
+    </footer>
 </body>
 </html>
