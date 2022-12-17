@@ -87,6 +87,10 @@ body {
     font-weight: 600;
     font-size: 28px;
     line-height: 21px;
+
+}
+
+.container-title {
     position: relative;
 }
 
