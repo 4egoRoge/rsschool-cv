@@ -82,9 +82,15 @@
                         </h2>
                         <hr class="hr-title">
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod amet aliquid distinctio nemo enim
-                        expedita cupiditate provident, qui illum, fugiat dolor doloribus obcaecati deserunt iste optio
-                        molestias. Nihil, sit. Deleniti.</p>
+                    <pre><code>javascript
+                        function positiveSum(arr) {
+                          let sum = 0
+                          arr.forEach(el => el > 0 ? sum += el : sum += 0)
+                          return sum</code></pre>
+                    <pre><code>javascript
+                        function highAndLow(numbers){
+                          const arr = numbers.split(" ")
+                          return `${Math.max(...arr)} ${Math.min(...arr)}`</code></pre>
                 </div>
             </section>
             <section class="section" id="education">
